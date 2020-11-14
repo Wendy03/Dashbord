@@ -1,0 +1,7 @@
+.search,
+.notifications {
+	color: $dark;
+	&:hover {
+		color: $primary;
+	}
+}
