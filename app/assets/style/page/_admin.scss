@@ -1,54 +1,54 @@
 .table {
-	thead th {
-		border-bottom: 1px solid $dark;
-	}
-	th,
-	tr {
-		border-bottom: 1px solid $border-color;
-	}
-	&-hover {
-		> tbody > tr:hover {
-			background: $secondary;
-		}
-	}
-	td button {
-		&:hover {
-			color: $primary;
-		}
-	}
+  thead th {
+    border-bottom: 1px solid $dark;
+  }
+  th,
+  tr {
+    border-bottom: 1px solid $border-color;
+  }
+  &-hover {
+    > tbody > tr:hover {
+      background: $secondary;
+    }
+  }
+  td button {
+    &:hover {
+      color: $primary;
+    }
+  }
 }
 
 .page-link {
-	color: $dark;
-	&--active {
-		background-color: $primary;
-		color: $secondary;
-	}
+  color: $dark;
+  &--active {
+    background-color: $primary;
+    color: $secondary;
+  }
 }
 
 .card-img {
-	width: 141px;
-	height: 141px;
-	border-radius: 2px;
+  width: 141px;
+  height: 141px;
+  border-radius: 2px;
 }
 
 .verified {
-	padding: 2px 2px;
-	background-color: $secondary;
+  padding: 2px 2px;
+  background-color: $secondary;
 }
 
 .expandArrow {
-	.material-icons {
-		transition: 0.3s all ease;
-	}
-	&[aria-expanded="true"] {
-		.material-icons {
-			transform: rotate(-180deg);
-		}
-	}
-	&[aria-expanded="false"] {
-		.material-icons {
-			transform: rotate(0);
-		}
-	}
+  .material-icons {
+    transition: 0.3s all ease;
+  }
+  &[aria-expanded='true'] {
+    .material-icons {
+      transform: rotate(-180deg);
+    }
+  }
+  &[aria-expanded='false'] {
+    .material-icons {
+      transform: rotate(0);
+    }
+  }
 }
