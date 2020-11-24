@@ -9941,6 +9941,9 @@ textarea {
 .sidebar .logo {
   height: 40px; }
 
+.nav-link--active {
+  color: #2a8356; }
+
 .replyEditor {
   position: absolute;
   bottom: 0;
