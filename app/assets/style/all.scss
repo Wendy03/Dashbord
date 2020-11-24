@@ -3,10 +3,6 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-@import "./base/typography";
-@import "./layout/sidebar";
-
-@import "./components/header";
-@import "./page/assignment";
-@import "./page/admin";
+@import "./config/typography";
+@import "./layout/custom";
 

@@ -1,0 +1,50 @@
+.sidebar {
+  .logo {
+    height: 40px;
+  }
+}
+
+.replyEditor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .textTools {
+    &-item {
+      a {
+        color: $dark;
+      }
+    }
+  }
+}
+
+.viewCard-img {
+  width: 141px;
+  height: 141px;
+  border-radius: 2px;
+}
+
+.expandArrow {
+  .material-icons {
+    transition: 0.3s all ease;
+  }
+  &[aria-expanded='true'] {
+    .material-icons {
+      transform: rotate(-180deg);
+    }
+  }
+  &[aria-expanded='false'] {
+    .material-icons {
+      transform: rotate(0);
+    }
+  }
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.material-icons {
+  vertical-align: bottom;
+}
