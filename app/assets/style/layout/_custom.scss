@@ -4,6 +4,12 @@
   }
 }
 
+.nav-link{
+  &--active{
+    color: $primary;
+  }
+}
+
 .replyEditor {
   position: absolute;
   bottom: 0;
